@@ -1,0 +1,28 @@
+{
+  "name": "erp-inventory-management",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "xlsx": "^0.18.5",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:client": "react-scripts start",
+    "dev:server": "node server/index.js",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
